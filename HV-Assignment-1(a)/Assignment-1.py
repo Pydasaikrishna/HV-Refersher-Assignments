@@ -8,7 +8,7 @@ Number_5 = int(input("Enter Number_5: "))
 
 Total = Number_1 + Number_2 + Number_3 + Number_4 + Number_5     #adding the all positive numbers
 
-if (Number_1 > 0) & (Number_2 > 0) & (Number_3 > 0) & (Number_4 > 0) & (Number_5 > 0):
+if (Number_1 >= 0) or (Number_2 >= 0) or (Number_3 >= 0) or (Number_4 >= 0) or (Number_5 >= 0):
     print("The sum of all Positive Numbers: ",Total)
     print("The sum of all Positive Numbers:",Total,file=Data)
 else:
